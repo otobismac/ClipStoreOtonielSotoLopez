@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #fc4c02;
+    height: 3.2vw;
+    overflow: hidden;
+    max-height: 50px;
+    min-height: 35px;
+}
+
+.category{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    float: left;
+    padding: 1vw;
+    font-size: 1.0vw;
+    cursor: pointer;
+    font-weight: bold;
+    height: 100%;
+}
+
+.navbar .category:hover {
+    background-color: #f88656;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1190px) {
+    .category {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1190px) {
+    .category {
+        font-size: 14px;
+    }
+}
