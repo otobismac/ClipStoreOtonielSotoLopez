@@ -4,7 +4,6 @@
     max-height: 70px;
     min-height: 65px;
     background-color: #efefef;
-    padding-left: 1vw;
     padding-top: 1vw;
     overflow: hidden;
 }
@@ -13,4 +12,5 @@
     content:url(../images/logo.png);
     width: 5vw;
     max-width: 55px;
+    margin-left: 1vw;
 }
