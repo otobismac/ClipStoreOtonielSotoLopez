@@ -1,0 +1,16 @@
+.footer-bar{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 3vw;
+    background-color: #fc4c02;
+    color: white;
+    line-height: 3vw;
+    margin-top: 3vw;
+}
+
+.footer-text{
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+}

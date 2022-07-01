@@ -1,0 +1,46 @@
+.card{
+    position: relative;
+    float: left;
+    width: 22vw;
+    height: 38vw;
+    border: solid 0.1vw #fc4c02;
+    margin: 0.2vw;
+    border-radius: 7px;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 5px 8px -1px rgba(255,101,97,0.3); 
+    box-shadow: 5px 5px 8px -1px rgba(255,101,97,0.3);
+}
+
+.item-image{
+    width: 16vw;
+    height: 17vw;
+}
+
+.item-name{
+    font-size: 2.5vw;
+}
+
+.item-description p {
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.item-price{
+    color: blue;
+    font-size: 2vw;
+    line-height: 3vw;
+}
+
+.add-to-cart {
+    background-color: #fc4c02;
+    width: 12vw;
+    height: 3vw;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 2.7vw;
+}
