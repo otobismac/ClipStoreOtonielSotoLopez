@@ -1,0 +1,92 @@
+.leyenda-desglose {
+    width: 100%;
+    position: relative;
+    float: left;
+    text-align: center;
+    line-height: 8vw;
+    font-size: 2vw;
+    color: #5e5e5e;
+}
+
+.cart-container {
+    margin-top: 0vw;
+    position: relative;
+    float: left;
+}
+
+.header-columns {
+    width: 74vw;
+    height: 5vw;
+    background-color: #f7f7f7;
+    color: #636363;
+    margin-left: 13vw;
+}
+
+.column {
+    width: 11vw;
+    height: 1vw;
+    position: relative;
+    float: left;
+    line-height: 5vw;
+    font-size: 2vw;
+    padding-left: 2vw;
+}
+
+#precio, #cantidad{
+    float: right;
+}
+
+.desglose {
+    width: 34%;
+    position: relative;
+    float: right;
+    color: #636363;
+    margin-right: 11vw;
+}
+
+#subtotal {
+    width: 23vw;
+    position: relative;
+    float: left;
+    line-height: 4vw;
+}
+
+#cantidad-subtotal {
+    position: relative;
+    float: left;
+    width: 8vw;
+    line-height: 4vw;
+}
+
+#total {
+    position: relative;
+    float: left;
+    width: 23vw;
+    line-height: 4vw;
+}
+
+#cantidad-total {
+    position: relative;
+    float: left;
+    width: 8vw;
+    line-height: 4vw;
+}
+
+#boton-pago #boton{
+    background-color: #8b8bff;
+    width: 10vw;
+    line-height: 4vw;
+    color: white;
+    text-align: center;
+    float: right;
+    height: 4vw;
+    margin-right: 15vw;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1vw;
+    margin-right: 15vw;
+}
+
+#boton-pago #boton:hover{
+    background-color: blue;
+}

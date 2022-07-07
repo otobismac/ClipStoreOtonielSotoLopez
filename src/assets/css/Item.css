@@ -33,14 +33,23 @@
     line-height: 3vw;
 }
 
-.add-to-cart {
+.add-to-cart-and-description {
     background-color: #fc4c02;
-    width: 12vw;
-    height: 3vw;
+    width: 9.4vw;
+    height: 2.5vw;
     color: white;
-    font-size: 1.5vw;
-    margin-left: 5vw;
+    font-size: 1.2vw;
+    margin-left: 1vw;
     border-radius: 5px;
     text-align: center;
-    line-height: 2.7vw;
+    line-height: 2.5vw;
+    position: relative;
+    float: left;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+
+.add-to-cart-and-description:hover {
+    background-color: #f7804c;
 }

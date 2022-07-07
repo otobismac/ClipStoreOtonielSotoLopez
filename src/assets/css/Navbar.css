@@ -23,6 +23,10 @@
     cursor: pointer;
 }
 
+.active{
+    background-color: #f7804c;
+}
+
 @media screen and (max-width: 1190px) {
     .category {
         font-size: 13px;

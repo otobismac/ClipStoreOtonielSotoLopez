@@ -1,0 +1,105 @@
+.product-logo{
+    width: 28vw;
+    height: 19vw;
+    position: relative;
+    float: left;
+}
+
+.product-logo .item-image{
+    width: 28vw;
+    height: 26vw;
+}
+
+.full-description{
+    position: relative;
+    float: left;
+    width: 41vw;
+    height: 27vw;
+}
+
+.full-description .title{
+    padding-bottom: 2vw;
+    font-size: 4vw;
+}
+
+.full-description .description{
+    color: #b1b1b1;
+    font-size: 2vw;
+}
+
+.full-description .price{    
+    color: #8b8bff;
+    font-size: 3vw;
+}
+
+.beneficios h1{    
+    font-size: 3vw;
+    color: #a0a0a0;
+    font-weight: inherit;
+}
+
+.beneficio{
+    font-size: 2vw;
+    line-height: 3vw;
+    text-align: left;
+    content: '✓';
+    width: 52vw;
+    margin-left: 13vw;
+}
+
+.beneficio:before{
+    font-size: 2vw;
+    line-height: 3vw;
+    text-align: left;
+    content: '✓'; 
+}
+
+.add-to-cart {
+    font-size: 1.6vw;
+    background-color: #5b5bff;
+    color: white;
+    width: 16vw;
+    position: relative;
+    float: right;
+    line-height: 4vw;
+    top: 4vw;
+    margin-bottom: 10vw;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 2vw;
+}
+
+.add-to-cart:hover {
+    font-size: 1.6vw;
+    background-color: blue;
+    color: white;
+    width: 16vw;
+    position: relative;
+    float: right;
+    line-height: 4vw;
+    top: 4vw;
+    margin-bottom: 10vw;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 2vw;
+}
+
+#boton-pago{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+#boton{
+    background-color: #8b8bff;
+    width: 10vw;
+    line-height: 4vw;
+    color: white;
+    text-align: center;
+    float: right;
+    height: 4vw;
+    margin-right: 3vw;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1vw;
+}

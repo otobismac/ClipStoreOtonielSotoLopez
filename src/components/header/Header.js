@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom';
 import '../../assets/css/Header.css';
 import CartWidget from './cartWidget/CartWidget';
 
 const Header = () => {
   return (
     <div className="header">
-        <a href="http://localhost:3000/"><img className="logo" alt="Clip Brand logo"/></a>
+        <Link to ="/"><img className="logo" alt="Clip Brand logo"/></Link>
         <CartWidget />
     </div>
   )

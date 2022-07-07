@@ -1,0 +1,14 @@
+.error-detail{
+    width: 100%;
+    height: 40vw;
+    color: gray;
+    font-size: 5vw;
+    text-align: center;
+    line-height: 7vw;
+    margin-top: 11vw;
+}
+
+.error-detail span {
+    color: #ffa985;
+    font-size: 4vw;
+}

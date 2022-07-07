@@ -1,4 +1,4 @@
-import '../../assets/css/ItemListContainer.css';
+import '../../../assets/css/ItemListContainer.css';
 import ItemList from './itemList/ItemList';
 
 const ItemListContainer = () => {

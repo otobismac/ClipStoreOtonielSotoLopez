@@ -1,0 +1,22 @@
+.product-container{
+    width: 100%;
+    min-height: 37vw;
+    height: auto;
+}
+
+.detail-container{
+    width: 71vw;
+    height: auto;
+    text-align: center;
+    padding-top: 4vw;
+    font-size: 3vw;
+    vertical-align: middle;
+    color: #ff8552;
+    margin-left: 14vw;
+}
+
+.loader{
+    content:url(../images/loader.gif);
+    margin-left: 30vw;
+    width: 11vw;
+}
